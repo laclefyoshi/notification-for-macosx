@@ -13,6 +13,7 @@
 		267063EE15E0BB2F00184D69 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 267063EC15E0BB2F00184D69 /* Credits.rtf */; };
 		267063F115E0BB2F00184D69 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 267063F015E0BB2F00184D69 /* AppDelegate.m */; };
 		267063F415E0BB3000184D69 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 267063F215E0BB3000184D69 /* MainMenu.xib */; };
+		267063FC15E0BB7700184D69 /* NotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 267063FB15E0BB7700184D69 /* NotificationManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		267063EF15E0BB2F00184D69 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		267063F015E0BB2F00184D69 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		267063F315E0BB3000184D69 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		267063FA15E0BB7700184D69 /* NotificationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationManager.h; sourceTree = "<group>"; };
+		267063FB15E0BB7700184D69 /* NotificationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				267063EF15E0BB2F00184D69 /* AppDelegate.h */,
 				267063F015E0BB2F00184D69 /* AppDelegate.m */,
 				267063F215E0BB3000184D69 /* MainMenu.xib */,
+				267063FA15E0BB7700184D69 /* NotificationManager.h */,
+				267063FB15E0BB7700184D69 /* NotificationManager.m */,
 				267063E415E0BB2F00184D69 /* Supporting Files */,
 			);
 			path = Notification;
@@ -168,6 +173,7 @@
 			files = (
 				267063EA15E0BB2F00184D69 /* main.m in Sources */,
 				267063F115E0BB2F00184D69 /* AppDelegate.m in Sources */,
+				267063FC15E0BB7700184D69 /* NotificationManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
