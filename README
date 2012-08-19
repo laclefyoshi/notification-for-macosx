@@ -1,0 +1,29 @@
+
+Notification for Mac OS X
+=========================
+
+Usage
+-----
+
+Using window
+~~~~~~~~~~~~
+
+This application has a window including some textfields.
+
+- Title: is used as the title of a notification
+- Subtitle: is used as the subtitle of a notification
+- Body: is used as the body text of a notification
+- Delay: specifies x seconds; a notification shows after x seconds
+
+Using console arguments
+~~~~~~~~~~~~~~~~~~~~~~~
+
+This application is able to be used on Terminal with open command::
+
+    $ open -g $APP_PATH/Notification.app --args \
+        -title="This is a title" \
+        -subtitle "This is a subtitle" \
+        -body "This is a body text" \
+        -delay 3
+
+
